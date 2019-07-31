@@ -1,0 +1,190 @@
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+.uk-h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #412396;
+
+}
+p.lorem {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	line-height: 1.5;
+	color: #ffffff;
+	max-width: 950px;
+	margin-bottom: 40px;
+}
+.article-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.37;
+	letter-spacing: normal;
+	text-align: left;
+	color: #434a4c;
+}
+.matrix-position-center {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%); 
+	width: 1200px;   
+	max-width: 100%;
+	box-sizing: border-box;
+	position: absolute;
+}
+@media (max-width:960px) {
+	.matrix-position-center {
+		top: 0;
+		left: 0;
+		transform: unset; 
+		width: 100%;   
+		max-width: 100%;
+		position: relative;
+	}
+}
+@media (min-width:960px) {
+	.padding-remove {
+		padding: 0 !important;
+	}
+	.padding-remove-left {
+		padding-left: 0px;
+	}
+}
+
+.matrix-bg {
+	background-image: linear-gradient(358deg, #ff5237, #b00391 43%, #412396);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.uk-width-sidebar {
+	width: 203px;
+	position: relative;
+}
+.matrix-purple {
+	background-color: #412396;
+	color: #ffffff;
+}
+.matrix-purple ul.uk-tab-left li a {
+	
+}
+.matrix-white {
+	background-color: #ffffff;
+}
+.uk-tab-left::before {
+	top: 0;
+	bottom: 0;
+	left: auto;
+	right: 0;
+	border-left: 0px none;
+	border-bottom: none;
+}
+.matrix-purple > ul.uk-tab>*>a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #ffffff;
+	display: block;
+	text-align: center;
+	padding: 4px 40px;
+	border-right: none;
+	border-bottom: 0px none;
+	transition: color .1s ease-in-out;
+	margin-bottom: 50px;
+}
+.matrix-purple > ul.uk-tab > li.uk-active > a {
+	color: #412396;
+	background-color: #00ffd5;
+}
+.uk-card {
+	background-color: #eef1f2;
+}
+.uk-card-header{
+	background-color: #412396;	
+}
+.uk-card-header h3.uk-card-title {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+}
+.uk-card-body {
+	padding: 30px 30px;
+}
+.uk-card-body h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #412396;
+}
+.uk-card-body p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.37;
+	letter-spacing: normal;
+	text-align: left;
+	color: #434a4c;
+}
+.uk-card-footer {
+	text-align: center;
+}
+.uk-button-default {
+	background-color: transparent;
+	color: #412396;
+	border: 1px solid #412396;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.bar {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.18);	
+	margin: 40px auto;
+	padding: 20px;
+	float: right;
+}
+@media (min-width:960px) {
+	.bar {
+		width: 487px;
+	}
+}
+.bar a {
+	margin: auto 18px; 
+	display: block;
+}

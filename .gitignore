@@ -1,2 +1,6 @@
 .sass-cache/
 *.css.map
+/bower.json
+/gulpfile.js
+/package.json
+/assets/scss
